@@ -1,4 +1,4 @@
-from flask import Flask
+ffrom flask import Flask
 from flask import Response
 from flask import render_template
 
@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     #return render_template("index.html")
-    return "This is the amazing app EVER, speaking at wdi."
+    return "This is the amazing app EVER, speaking at zf openshift."
  
 
 @app.route("/healthz")
