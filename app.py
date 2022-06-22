@@ -13,6 +13,7 @@ def index():
     
     matt = np.zeros(1280,720)
     cv2.imwrite("img.png", matt)
+    print("Hi")
     return "This is the amazing app EVER, speaking at zf openshift."
  
 
