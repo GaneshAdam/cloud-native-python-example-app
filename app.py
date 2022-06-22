@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import Response
 from flask import render_template
-import cv2
+import os
 import numpy as np
 
 app = Flask(__name__)
@@ -12,7 +12,9 @@ def index():
     #return render_template("index.html")
     
     matt = np.zeros(1280,720)
-    cv2.imwrite("img.png", matt)
+    with open('myfile.txt', 'w') as fp:
+        pass
+    #cv2.imwrite("img.png", matt)
     #print("Hi")
     return "This is the amazing app EVER, speaking at zf openshift."
  
