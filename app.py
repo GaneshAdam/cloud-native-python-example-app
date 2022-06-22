@@ -1,4 +1,4 @@
-ffrom flask import Flask
+from flask import Flask
 from flask import Response
 from flask import render_template
 import cv2
